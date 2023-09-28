@@ -1,15 +1,112 @@
-/**
- * Theme Name:     Astra Child
- * Author:         Brainstorm Force
- * Template:       astra
- * Text Domain:	   astra-child
- * Description:    Astra is fast, fully customizable
- */
-/*formulaire de contact*/
-.contact-form{
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+<section class="command-container-form">
+<div id:="command-container-title">
+<h5 class="command-title">Votre commande</h5>
+</div>
+<div class="command-product-container">
+<article  class="command-container">
+<div class="command-image-form">
+<div class="command-image">
+<img id="command-img-1" src="http://localhost/planty/wp-content/uploads/2023/09/jeremy-bezanger-0QgbyZdhX7k-unsplash-1.png" alt="fraises">
+<h5 class="command-img-title">FRAISE</h5>
+</div>
+<div class="command-input-container">
+<input type="text" id="number-663" name="number-663" class="command-counter-return" placeholder="0"/>
+<div class="command-group-button">
+<button id:="command-increment-1" class="command-increment">+</button>
+<button id:="command-decrement-1" class="command-decrement">-</button>
+</div>
+<div class="command-submit-container">
+<button id="command-submit-1" class="command-submit">Ok</button>
+</div>
+</div>
+</div>
+</article>
 
-}
- #form-button{
-    margin-left: 20%;
- }
+<article  class="command-container">
+<div class="command-image-form">
+<div class="command-image">
+<img id="command-img-2" src="http://localhost/planty/wp-content/uploads/2023/09/estudio-bloom-tOitjphtIXU-unsplash-1.png" alt="Pamplemousse">
+<h5 class="command-img-title">PAMPLEMOUSSE</h5>
+</div>
+<div class="command-input-container">
+<input type="text" id="number-664" name="number-664" class="command-counter-return" placeholder="0"/>
+<div class="command-group-button">
+<button id:="command-increment-2" class="command-increment">+</button>
+<button id:="command-decrement-2" class="command-decrement">-</button>
+</div>
+<div class="command-submit-container">
+<button id="command-submit-2" class="command-submit">Ok</button>
+</div>
+</div>
+</div>
+</article>
+
+<article  class="command-container">
+<div class="command-image-form">
+<div class="command-image">
+<img id="command-img-3" src="http://localhost/planty/wp-content/uploads/2023/09/rodion-kutsaev-4k8xEFW4_3Q-unsplash-1.png" alt="framboises">
+<h5 class="command-img-title">FRAMBOISE</h5>
+</div>
+<div class="command-input-container">
+<input type="text" id="number-665" name="number-665" class="command-counter-return" placeholder="0"/>
+<div class="command-group-button">
+<button id:="command-increment-3" class="command-increment">+</button>
+<button id:="command-decrement-3" class="command-decrement">-</button>
+</div>
+<div class="command-submit-container">
+<button id="command-submit-3" class="command-submit">Ok</button>
+</div>
+</div>
+</div>
+</article>
+
+<article  class="command-container">
+<div class="command-image-form">
+<div class="command-image">
+<img id="command-img-4" src="http://localhost/planty/wp-content/uploads/2023/09/estudio-bloom-ezqnxsqUZ80-unsplash-1.png" alt="citrons">
+<h5 class="command-img-title">CITRON</h5>
+</div>
+<div class="command-input-container">
+<input type="text" id="number-666" name="number-666" class="command-counter-return" placeholder="0"/>
+<div class="command-group-button">
+<button id:="command-increment-4" class="command-increment">+</button>
+<button id:="command-decrement-4" class="command-decrement">-</button>
+</div>
+<div class="command-submit-container">
+<button id="command-submit-4" class="command-submit">Ok</button>
+</div>
+</div>
+</div>
+</article>
+</div>
+</section>
+<div class="field-container-form">
+<section class="information-container-form">
+<h5 id:="information-container-title class="command-title">Vos informations</h5>
+<label class="command-label"> Nom
+[text* Nom id:information-field-name class:command-fields]
+</label>
+<label class="command-label"> Prénom
+[text* Prenom id:information-field-forename class:command-fields]
+</label>
+<label class="command-label"> E-mail
+[email* E-mail id:information-field-email class:command-fields]
+</label>
+</section>
+
+<section class="livraison-container-form">
+<h5 id:="livraison-container-title class="livraison-title">Livraison</h5>
+<label class="command-label"> Adresse de livraison
+[text* Adressedelivraison id:livraison-field-adress class:command-fields]
+</label>
+<label  class="command-label"> Code postal
+[text* Codepostal id:livraison-field-postal class:command-fields]
+</label>
+<label class="command-label"> Ville
+[text* Ville id:livraison-field-city class:command-fields]
+</label>
+</section>
+</div>
+<div class="command-submit-button">
+[submit id:submit-button "Commander"]
+</div>
