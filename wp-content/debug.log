@@ -6069,3 +6069,85 @@ Stack trace:
 [02-Oct-2023 11:45:27 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\planty\wp-includes\functions.php on line 5349
 [02-Oct-2023 11:45:50 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\planty\wp-includes\functions.php on line 5349
 [02-Oct-2023 11:45:50 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\planty\wp-includes\functions.php on line 5349
+[03-Oct-2023 06:28:37 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\planty\wp-includes\functions.php on line 5349
+[03-Oct-2023 06:28:37 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\planty\wp-includes\functions.php on line 5349
+[03-Oct-2023 07:03:11 UTC] PHP Parse error:  syntax error, unexpected identifier "astra_header" in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\header.php on line 61
+[03-Oct-2023 07:04:09 UTC] PHP Parse error:  syntax error, unexpected identifier "astra_header" in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\header.php on line 61
+[03-Oct-2023 07:05:04 UTC] PHP Parse error:  syntax error, unexpected identifier "astra_header" in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\header.php on line 61
+[03-Oct-2023 07:32:59 UTC] Sync process for Gutenberg Blocks has started.
+[03-Oct-2023 07:32:59 UTC] CATEGORY:Importing categories..
+[03-Oct-2023 07:32:59 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[03-Oct-2023 07:32:59 UTC] CATEGORY:Completed category import.
+[03-Oct-2023 07:32:59 UTC] BLOCK: Getting Total Blocks
+[03-Oct-2023 07:32:59 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[03-Oct-2023 07:32:59 UTC] BLOCK: Requests count 4
+[03-Oct-2023 07:32:59 UTC] BLOCK: Importing request 1 ..
+[03-Oct-2023 07:32:59 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[03-Oct-2023 07:33:00 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[03-Oct-2023 07:33:00 UTC] BLOCK: Completed request 1
+[03-Oct-2023 07:33:00 UTC] BLOCK: Importing request 2 ..
+[03-Oct-2023 07:33:00 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[03-Oct-2023 07:33:00 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[03-Oct-2023 07:33:00 UTC] BLOCK: Completed request 2
+[03-Oct-2023 07:33:00 UTC] BLOCK: Importing request 3 ..
+[03-Oct-2023 07:33:00 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[03-Oct-2023 07:33:00 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[03-Oct-2023 07:33:00 UTC] BLOCK: Completed request 3
+[03-Oct-2023 07:33:00 UTC] BLOCK: Importing request 4 ..
+[03-Oct-2023 07:33:00 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[03-Oct-2023 07:33:00 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[03-Oct-2023 07:33:00 UTC] BLOCK: Completed request 4
+[03-Oct-2023 07:33:00 UTC] SITE: Getting Total Sites
+[03-Oct-2023 07:33:00 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[03-Oct-2023 07:33:00 UTC] SITE: Request count 2
+[03-Oct-2023 07:33:00 UTC] SITE: Importing request 1 ..
+[03-Oct-2023 07:33:00 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[03-Oct-2023 07:33:00 UTC] SITE: Storing in option ast-block-templates-sites-1
+[03-Oct-2023 07:33:00 UTC] SITE: Completed request 1
+[03-Oct-2023 07:33:00 UTC] SITE: Importing request 2 ..
+[03-Oct-2023 07:33:00 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[03-Oct-2023 07:33:01 UTC] SITE: Storing in option ast-block-templates-sites-2
+[03-Oct-2023 07:33:01 UTC] SITE: Completed request 2
+[03-Oct-2023 07:33:01 UTC] Sync process for Gutenberg Blocks is done.
+[03-Oct-2023 12:23:28 UTC] PHP Parse error:  Unterminated comment starting line 33 in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php on line 33
+[03-Oct-2023 12:24:11 UTC] PHP Parse error:  Unterminated comment starting line 33 in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php on line 33
+[03-Oct-2023 12:24:15 UTC] PHP Parse error:  Unterminated comment starting line 33 in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php on line 33
+[03-Oct-2023 12:24:19 UTC] PHP Parse error:  Unterminated comment starting line 33 in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php on line 33
+[03-Oct-2023 12:24:30 UTC] PHP Parse error:  Unterminated comment starting line 33 in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php on line 33
+[03-Oct-2023 12:24:43 UTC] PHP Parse error:  Unterminated comment starting line 33 in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php on line 33
+[03-Oct-2023 12:24:45 UTC] PHP Parse error:  Unterminated comment starting line 33 in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php on line 33
+[03-Oct-2023 12:24:47 UTC] PHP Parse error:  Unterminated comment starting line 33 in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php on line 33
+[03-Oct-2023 12:48:26 UTC] PHP Fatal error:  Uncaught TypeError: array_splice(): Argument #1 ($array) must be of type array, null given in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php:27
+Stack trace:
+#0 C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php(27): array_splice(NULL, 1, 0, '<li class="head...')
+#1 C:\MAMP\htdocs\planty\wp-includes\class-wp-hook.php(310): header_nav_admin('<li id="menu-it...', Object(stdClass))
+#2 C:\MAMP\htdocs\planty\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#3 C:\MAMP\htdocs\planty\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#4 C:\MAMP\htdocs\planty\wp-content\themes\astra-child\components\menu.php(6): wp_nav_menu(Object(stdClass))
+#5 C:\MAMP\htdocs\planty\wp-content\themes\astra-child\header.php(60): include_once('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\planty\wp-includes\template.php(785): require_once('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\planty\wp-includes\template.php(720): load_template('C:\\MAMP\\htdocs\\...', true, Array)
+#8 C:\MAMP\htdocs\planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#9 C:\MAMP\htdocs\planty\wp-content\themes\astra\page.php(20): get_header()
+#10 C:\MAMP\htdocs\planty\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#11 C:\MAMP\htdocs\planty\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#12 C:\MAMP\htdocs\planty\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#13 {main}
+  thrown in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php on line 27
+[03-Oct-2023 12:59:25 UTC] PHP Fatal error:  Uncaught TypeError: array_splice(): Argument #1 ($array) must be of type array, string given in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php:28
+Stack trace:
+#0 C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php(28): array_splice('<li class="head...', 1, 0, Array)
+#1 C:\MAMP\htdocs\planty\wp-includes\class-wp-hook.php(310): header_nav_admin('<li id="menu-it...', Object(stdClass))
+#2 C:\MAMP\htdocs\planty\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#3 C:\MAMP\htdocs\planty\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#4 C:\MAMP\htdocs\planty\wp-content\themes\astra-child\components\menu.php(6): wp_nav_menu(Object(stdClass))
+#5 C:\MAMP\htdocs\planty\wp-content\themes\astra-child\header.php(60): include_once('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\planty\wp-includes\template.php(785): require_once('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\planty\wp-includes\template.php(720): load_template('C:\\MAMP\\htdocs\\...', true, Array)
+#8 C:\MAMP\htdocs\planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#9 C:\MAMP\htdocs\planty\wp-content\themes\astra\page.php(20): get_header()
+#10 C:\MAMP\htdocs\planty\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#11 C:\MAMP\htdocs\planty\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#12 C:\MAMP\htdocs\planty\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#13 {main}
+  thrown in C:\MAMP\htdocs\planty\wp-content\themes\astra-child\functions.php on line 28

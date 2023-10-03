@@ -16,3 +16,19 @@
  * Your code goes below.
  */
 
+ /*erreur ob_end_flush */
+ remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
+ add_action( 'shutdown', function() {
+	while ( @ob_end_flush() );
+ } );
+
+ function header_nav_admin($items, $args) {
+    if ($args->theme_location == 'primary' && is_user_logged_in()) { 
+		$second_line = strpos($items, '</li');//vat chercher la premiere balise fermante de la liste//
+        $admin_button = '<li class="header-nav-button"><a href="/planty/wp-admin/" >Admin</a></li>';
+		$items =substr_replace($items, $admin_button, $second_line, 0);//place mon bouton aprés la premiére balise fermante de la liste//
+    }
+    return $items;
+}
+
+add_filter('wp_nav_menu_items', 'header_nav_admin', 10, 2);
