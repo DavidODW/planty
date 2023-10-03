@@ -16,3 +16,18 @@
  * Your code goes below.
  */
 
+ /*erreur ob_end_flush */
+ remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
+ add_action( 'shutdown', function() {
+	while ( @ob_end_flush() );
+ } );
+
+ function ajouter_bouton_menu($items, $args) {
+    if ($args->theme_location == 'menu_1') { // Remplacez 'menu-principal' par le nom de votre emplacement de menu
+        $bouton = '<li class="menu-item menu-item-button"><a href="URL_DU_BOUTON" >Texte du bouton</a></li>';
+        $items .= $bouton;
+    }
+    return $items;
+}
+
+add_filter('wp_nav_menu_items', 'ajouter_bouton_menu', 10, 2);
