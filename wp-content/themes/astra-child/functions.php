@@ -22,12 +22,13 @@
 	while ( @ob_end_flush() );
  } );
 
- function ajouter_bouton_menu($items, $args) {
-    if ($args->theme_location == 'menu_1') { // Remplacez 'menu-principal' par le nom de votre emplacement de menu
-        $bouton = '<li class="menu-item menu-item-button"><a href="URL_DU_BOUTON" >Texte du bouton</a></li>';
-        $items .= $bouton;
+ function header_nav_admin($items, $args) {
+    if ($args->theme_location == 'primary' && is_user_logged_in()) { 
+		$second_line = strpos($items, '</li');//vat chercher la premiere balise fermante de la liste//
+        $admin_button = '<li class="header-nav-button"><a href="/planty/wp-admin/" >Admin</a></li>';
+		$items =substr_replace($items, $admin_button, $second_line, 0);//place mon bouton aprés la premiére balise fermante de la liste//
     }
     return $items;
 }
 
-add_filter('wp_nav_menu_items', 'ajouter_bouton_menu', 10, 2);
+add_filter('wp_nav_menu_items', 'header_nav_admin', 10, 2);
