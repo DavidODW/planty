@@ -16,6 +16,7 @@
     --command-submit-color: #E0B9B4;
     --command-hover-color: #c02e44;
 }
+/*mise enforme de l'affichage de la page*/
 body{
     width: 80%;
     overflow-x:hidden;
@@ -253,12 +254,9 @@ body{
 }
 
 .header-planty-nav li:hover{
-
     background-color: var(--command-incdec-color);
-
-
 }
-
+/*responsive*/
 @media (max-width: 958px) {
     body{
         width:100%;
@@ -290,8 +288,23 @@ body{
         margin: auto;
     }
 
+
+}
+@media (max-width: 500px) {
     .header-planty{
         flex-direction: column;
-        align-items: center;
+        height: 100px;
+    }
+    .header-nav-button{
+      margin-left: 0;
+      text-align: center;
+      padding: 0.2em;
+      margin-bottom: 1em;
+    
+    }
+    .header-planty-nav{
+        display: flex;
+        justify-content: center;
+    
     }
 }
