@@ -16,14 +16,7 @@
     --command-submit-color: #E0B9B4;
     --command-hover-color: #c02e44;
 }
-/*mise enforme de l'affichage de la page*/
-body{
-    width: 80%;
-    overflow-x:hidden;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-/*formulaire de contact*/
+
 .contact-form{
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 
@@ -256,14 +249,16 @@ body{
 .header-planty-nav li:hover{
     background-color: var(--command-incdec-color);
 }
+
+
+/*bordure de la page d'acceuil*/
+.home-front-border{
+    border-radius: 49% 51% 51% 49% / 46% 48% 52% 54%  ;
+    border-bottom: #E3D9D0 8px solid;
+
+}
 /*responsive*/
 @media (max-width: 958px) {
-    body{
-        width:100%;
-        overflow-x:hidden;
-        margin-right: 0;
-        margin-left: 0;
-    }
 
     .command-title{
         width: fit-content;
@@ -306,5 +301,8 @@ body{
         display: flex;
         justify-content: center;
     
+    }
+    .header-planty-logo{
+        margin: auto;
     }
 }
