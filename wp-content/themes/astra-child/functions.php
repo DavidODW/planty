@@ -21,7 +21,7 @@
  add_action( 'shutdown', function() {
 	while ( @ob_end_flush() );
  } );
-
+/*ajout du bouton "Admin"*/
  function header_nav_admin($items, $args) {
     if ($args->theme_location == 'primary' && is_user_logged_in()) { 
 		$second_line = strpos($items, '</li');//vat chercher la premiere balise fermante de la liste//
