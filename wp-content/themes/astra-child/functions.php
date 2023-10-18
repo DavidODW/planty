@@ -25,7 +25,7 @@
  function header_nav_admin($items, $args) {
     if ($args->theme_location == 'primary' && is_user_logged_in()) { 
 		$second_line = strpos($items, '</li');//vat chercher la premiere balise fermante de la liste//
-        $admin_button = '<li class="header-nav-button"><a href="/planty/wp-admin/" >Admin</a></li>';
+        $admin_button = '<li class="header-nav-button"><a href="'. get_admin_url() .'" >Admin</a></li>';
 		$items =substr_replace($items, $admin_button, $second_line, 0);//place mon bouton aprés la premiére balise fermante de la liste//
     }
     return $items;
